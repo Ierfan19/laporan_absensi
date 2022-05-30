@@ -1,0 +1,55 @@
+body {
+	background-color: rgb(236, 243, 243);
+	font-family: 'Segoe Ui';
+}
+.wrapper-header {
+	height: 250px;
+	background: linear-gradient(to top right,#322ff3 15%, #ac26a1 80%);
+}
+.header {
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(to right,#322ff3 15%, #ac26a1 80%);
+}
+.wrapper-body{
+	margin-top: -190px;
+}
+.menu {
+	height: 150%;
+}
+.menu .nav-link:hover {
+	border-left: 3px solid rgba(23, 47, 255, 0.067);
+	background-color: rgb(199, 225, 247);
+	color: aliceblue;
+}
+.know div {
+	margin: 0 auto;
+}
+.know div div p{
+	font-size: 1.2em;
+}
+.known {
+	margin: 0 5px;
+}
+.known div {
+	max-width: 200px;
+	min-width: 180px;
+	padding: 0 5px;
+}
+p.welcome {
+	font-size: 1.2em;
+}
+.sosial div {
+	min-width: 30%;
+}
+.sosial div div{
+	margin: 0 auto;
+}
+.sosial div div div{
+	max-width: 80%;
+	margin: 0 auto;
+	font-size: 1.3em;
+}
+.sosial div div {
+	padding-bottom: 10px;
+}

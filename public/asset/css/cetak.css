@@ -1,0 +1,55 @@
+/* @font-face{
+	font-family: poppins;
+	src: url('/asset/font/Poppins-Regular.ttf');
+} */
+body {
+ 	background: linear-gradient(to top left, #12baac 20%, #6078ea 80%);
+ 	padding: 100px 0;
+	background-repeat: no-repeat;
+	font-family: 'Segoe Ui';
+}
+.profil {
+	margin: 8% auto;
+	border-radius: 10px;
+	min-width: 350px;
+  
+}
+.fadek {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;}
+@-webkit-keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}}
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}}
+h3 {
+	text-align: center;
+	font-size: 30px;
+	margin: 20px;
+	font-weight: bold;
+	color: #6944ff;
+}
+h3:hover {
+	color: #ff2846;
+}
+p {
+	text-align: center;
+	color: #324e63;
+}
+p:hover{
+	color: #ff2846;
+}
+table {
+	margin: 0 auto;
+	font-size: 0.9em;
+	color: #324e63;
+}
+td{
+	text-align: left;
+}
+td:hover{
+	color: #ff2846;
+}

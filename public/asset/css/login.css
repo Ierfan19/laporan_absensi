@@ -1,0 +1,6 @@
+body {
+    background: linear-gradient(to top right, #471edd 20%, #ba31cc 80%);
+}
+.login {
+    margin:10% auto;
+}
